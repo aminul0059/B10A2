@@ -1033,8 +1033,8 @@ select:focus {
     }
 
     .popular-cards {
-        grid-template-columns: 1fr;
-        width: 100%;
+        grid-template-columns: (1fr,100%);
+        
         
     }
 
