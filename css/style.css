@@ -418,105 +418,7 @@ body {
 }
 
 
-/* Training And Exercise styles */
-.trainings {
-    width: 100%;
-    background-color: black;
-    padding: 50px 0px;
-}
 
-.trainings-container {
-    width: 1090px;
-    margin: 0 auto;
-}
-
-.trainings-title {
-    color: white;
-    font-size: 46px;
-    margin-bottom: 10px;
-}
-
-.trainings-description {
-    color: gray;
-    width: 70%;
-    margin-bottom: 40px;
-    font-size: 14px;
-}
-
-.trainings-cards {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-}
-
-.trainings-card {
-    position: relative;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-}
-
-.trainings-card-1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    background-image: linear-gradient(45deg,
-    rgba(6, 255, 210, 0.5),
-    rgba(6, 255, 210, 0.5)), url('../images/exercise1.jpg');
-}
-
-.trainings-card-2 {
-    grid-column-start: 5;
-    grid-column-end: 13;
-    background-image: linear-gradient(45deg,
-    rgba(255, 0, 0, 0.3),
-    rgba(255, 0, 0, 0.3)), url('../images/exercise2.png');
-}
-
-.trainings-card-3 {
-    grid-column-start: 13;
-    grid-column-end: 17;
-    background-image: linear-gradient(45deg,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url('../images/exercise3.png');
-}
-
-.trainings-card-4 {
-    grid-column-start: 1;
-    grid-column-end: 8;
-    background-image: linear-gradient(45deg,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url('../images/exercise4.png');
-}
-
-.trainings-card-5 {
-    grid-column-start: 8;
-    grid-column-end: 12;
-    background-image: linear-gradient(45deg,
-    rgba(66, 255, 0, 0.3),
-    rgba(66, 255, 0, 0.3)), url('../images/exercise5.jpg');
-}
-
-.trainings-card-6 {
-    grid-column-start: 12;
-    grid-column-end: 17;
-    background-image: linear-gradient(45deg,
-    rgba(0, 71, 255, 0.3),
-    rgba(0, 71, 255, 0.3)), url('../images/exercise6.jpg');
-}
-
-.trainings-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.trainings-card-title {
-    color: rgb(211, 202, 202);
-    position: absolute;
-    bottom: 40px;
-    left: 50px;
-}
 
 
 /* BMI Calculator Styles */
@@ -786,7 +688,7 @@ select:focus {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(243, 157, 204, 0.1);
     padding: 10px;
     border-radius: 10px;
 }
@@ -794,7 +696,8 @@ select:focus {
 .team-card {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
+    gap: 20px;
     height: 245px;
     position: relative;
     border-radius: 10px;
@@ -807,7 +710,7 @@ select:focus {
 .team-card-1 {
     background-image: linear-gradient(
       0deg,
-      rgba(19, 19, 24, 0.3) 0%,
+      rgba(66, 66, 210, 0.3) 0%,
       rgba(19, 19, 24, 0.3) 100%
     ), url('../images/trainer1.png');
 }
@@ -816,7 +719,7 @@ select:focus {
     background-image: linear-gradient(
       0deg,
       rgba(19, 19, 24, 0.3) 0%,
-      rgba(19, 19, 24, 0.3) 100%
+      rgba(213, 129, 210, 0.3) 100%
     ), url('../images/trainer2.png');
 }
 
@@ -824,14 +727,14 @@ select:focus {
     background-image: linear-gradient(
       0deg,
       rgba(19, 19, 24, 0.3) 0%,
-      rgba(19, 19, 24, 0.3) 100%
+      rgba(112, 244, 165, 0.3) 100%
     ), url('../images/trainer3.png');
 }
 
 .team-card-4 {
     background-image: linear-gradient(
       0deg,
-      rgba(19, 19, 24, 0.3) 0%,
+      rgba(92, 170, 147, 0.3) 0%,
       rgba(19, 19, 24, 0.3) 100%
     ), url('../images/trainer4.png');
 }
@@ -839,7 +742,7 @@ select:focus {
 .team-card-5 {
     background-image: linear-gradient(
       0deg,
-      rgba(19, 19, 24, 0.3) 0%,
+      rgba(189, 98, 132, 0.3) 0%,
       rgba(19, 19, 24, 0.3) 100%
     ), url('../images/trainer5.png');
 }
@@ -848,7 +751,7 @@ select:focus {
     background-image: linear-gradient(
       0deg,
       rgba(19, 19, 24, 0.3) 0%,
-      rgba(19, 19, 24, 0.3) 100%
+      rgba(229, 232, 142, 0.3) 100%
     ), url('../images/trainer6.png');
 }
 
