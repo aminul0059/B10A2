@@ -91,6 +91,9 @@ body {
     font-size: 28px;
     cursor: pointer;
 }
+#home{
+    color: rgb(223, 120, 246);
+}
 
 #menu-bars {
     animation-name: moveTopToBottom;
@@ -311,7 +314,7 @@ body {
 }
 
 .habits-title {
-    color: white;
+    color: rgb(223, 120, 246);
     text-align: center;
     font-size: 46px;
     margin: 20px 0px;
@@ -390,7 +393,7 @@ body {
 
 .run-extra-title {
     font-size: 36px;
-    color: white;
+    color: rgb(223, 120, 246);
 }
 
 .run-extra-description {
@@ -406,11 +409,12 @@ body {
 }
 
 .run-extra-right-side img {
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     object-fit: cover;
     background-position: center;
     background-size: cover;
+    
 }
 
 
@@ -528,7 +532,7 @@ body {
 }
 
 .bmi-calculator-title {
-    color: white;
+    color: rgb(223, 120, 246);
     font-size: 42px;
     margin-bottom: 10px;
 }
@@ -574,7 +578,7 @@ body {
 }
 
 .bmi-calculator-chart-left th {
-    color: white;
+    color: rgb(223, 120, 246);
     padding: 10px 55px 10px 15px;
     text-align: left;
 }
@@ -590,7 +594,7 @@ body {
 }
 
 .bmi-calculator-chart-title {
-    color: white;
+   color: rgb(223, 120, 246);
 }
 
 .bmi-calculator-chart-description {
@@ -668,7 +672,7 @@ select:focus {
     font-size: 42px;
     text-align: center;
     margin-bottom: 50px;
-    color: white;
+    color: rgb(223, 120, 246);
 }
 
 .popular-cards {
@@ -763,7 +767,7 @@ select:focus {
 }
 
 .team-title {
-    color: white;
+    color: rgb(223, 120, 246);
     text-align: center;
     font-size: 46px;
     margin: 50px 0px 20px 0px;
@@ -907,7 +911,7 @@ select:focus {
 }
 
 .footer-section-title {
-    color: white;
+    color: rgb(223, 120, 246);
     font-size: 22px;
 }
 
