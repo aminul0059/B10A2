@@ -584,7 +584,7 @@ select:focus {
 }
 
 .popular-card {
-    padding: 1rem;
+    padding: 15px;
     border-radius:5px;
     box-shadow: 0px 1px 10px 1px rgb(245, 244, 245);
     display: flex;
@@ -595,8 +595,8 @@ select:focus {
 }
 
 .popular-card img {
-    width: 20rem;
-    height: 20rem;
+    width: 312px;
+    padding: 20px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -984,60 +984,7 @@ select:focus {
     }
 
 
-    /* Trainings and Exercise */
-    .trainings-container {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .trainings-cards {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-
-    .trainings-card-3,
-    .trainings-card-6 {
-        visibility: hidden;
-        display: none;
-    }
-
-    .trainings-card-1,
-    .trainings-card-2,
-    .trainings-card-4,
-    .trainings-card-5 {
-        width: 100%;
-    }
-
-    .trainings-card-1 {
-        grid-column-start: 0;
-        grid-column-end: 9;
-    }
-
-    .trainings-card-2 {
-        grid-column-start: 9;
-        grid-column-end: 17;
-    }
-
-    .trainings-card-4 {
-        grid-column-start: 0;
-        grid-column-end: 8;
-    }
-
-    .trainings-card-5 {
-        grid-column-start: 8;
-        grid-column-end: 17;
-    }
-
-    .trainings-title {
-        font-size: 40px;
-        width: 70%;
-    }
-
-    .trainings-description {
-        width: 100%;
-        font-size: 12px;
-    }
+  
 
 
     /* BMI Calculator */
@@ -1076,7 +1023,7 @@ select:focus {
     }
 
 
-    Popular
+   
     .popular-container {
         width: 95%;
     }
@@ -1087,8 +1034,8 @@ select:focus {
 
     .popular-cards {
         grid-template-columns: 1fr;
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        
     }
 
 
@@ -1108,9 +1055,9 @@ select:focus {
 
     .team-cards {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
-        row-gap: 20px;
+        row-gap: 10px;
     }
 
 
