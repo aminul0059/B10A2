@@ -923,6 +923,10 @@ select:focus {
     display: flex;
     flex-direction: column;
    }
+   .run-extra{
+    display: flex;
+    flex-direction: column;
+   }
 
     /* Habits */
     .habits {
