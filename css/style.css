@@ -924,6 +924,12 @@ select:focus {
     flex-direction: column;
     width: 95%;
    }
+   .run-extra-content{
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+margin: 0px auto;
+   }
    .run-responsive{
     display: flex;
     flex-direction: column;
@@ -932,7 +938,17 @@ select:focus {
     margin: 0px auto;
     border: 5px solid rgb(7, 13, 92);
    }
+   .border-try{
+    border: 3px solid red;
+    display: flex;
+    flex-direction:column;
    
+    margin:20px auto;
+    
+   }
+   #imglocate{
+    width:100%;
+   }
 
     /* Habits */
     .habits {
