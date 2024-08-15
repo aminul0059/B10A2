@@ -919,7 +919,10 @@ select:focus {
     #menu-bars {
         opacity: 1;
     }
-
+   .run-extra-container{
+    display: flex;
+    flex-direction: column;
+   }
 
     /* Habits */
     .habits {
