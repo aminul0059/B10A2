@@ -922,11 +922,17 @@ select:focus {
    .run-extra-container{
     display: flex;
     flex-direction: column;
+    width: 95%;
    }
-   .run-extra{
+   .run-responsive{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    align-items: start;
+    margin: 0px auto;
+    border: 5px solid rgb(7, 13, 92);
    }
+   
 
     /* Habits */
     .habits {
@@ -1009,13 +1015,16 @@ select:focus {
     }
 
     .popular-cards {
-        grid-template-columns: (1fr,100%);
         display: flex;
         flex-direction: column;
-        
+        width: 95%;
         
     }
-
+    .popular{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
 
     /* Team */
     .team-container {
